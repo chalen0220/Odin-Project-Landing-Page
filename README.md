@@ -1,0 +1,1 @@
+This project is for the creation of landing web page from the Odin Project. This page is made using HTML, CSS, and flexbox.
