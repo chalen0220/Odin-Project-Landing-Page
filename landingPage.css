@@ -3,7 +3,6 @@ body{
     padding:0;
 }
 
-
 .hero{
     background-color:#1f2937;
     
@@ -13,6 +12,7 @@ body{
     justify-content: space-around;
     font-size:20px;
     color:#F9FAF8;
+    padding:10px 0 50px 0;
 }
 
 ul{
@@ -36,13 +36,16 @@ img{
     max-height:100%;
 }
 .nav-image{
-    height: 500px;
-    width: 500px;
+    height: 100px;
+    width: 100px;
+    min-width: 70px;
 }
+
 .welcome-image{
     height: 500px;
     width: 500px;
 }
+
 .welcome{
     font-weight:800;
     font-size:48px;
@@ -61,15 +64,43 @@ img{
 .box > img {
     border:solid;
     border-color: #3882F6;
+    border-radius: 30%;
+
+
 }
 
 footer{
     text-align:center;
     background-color:#1f2937;
+    color:#F9FAF8;
+    padding:30px;
     
 }
 
 button{
     background-color:#3882F6;
     color:#F9FAF8;
+}
+
+.img-border{
+    border:solid;
+    border-color: orange;
+    border-radius: 30%;
+    
+}
+.header-text{
+    font-size:50px;
+}
+
+.container3{
+    background-color: #E5E7EB;
+    color:#1F2937;
+    font-size:36px;
+    font-style: italic;
+    padding:40px 180px;
+}
+.signature{
+    text-align:end;
+    font-style:normal;
+    font-weight: bold;
 }
