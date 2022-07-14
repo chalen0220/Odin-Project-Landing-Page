@@ -1,22 +1,31 @@
 body{
     margin:0;
     padding:0;
-   
 }
 
 .hero{
     background-color:#1f2937;
-    
 }
+
 .navbar{
     display: flex;
     justify-content: space-evenly;
     font-size:20px;
     color:#F9FAF8;
-    padding:10px 0 50px;
+    padding:10px 0 30px;
     margin:0 200px;
+    gap:10px;
 }
-
+.rainbow{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+    display:flex;
+    justify-content:center;
+    flex-shrink:2;
+    margin:4px 0;
+    font-size:4vw;
+}
+    
 ul{
     display: flex;
     list-style: none;
@@ -26,19 +35,6 @@ ul{
 a, .welcome2{
     text-decoration: none;
     color:#E5E7EB;
-}
-.container2{
-    display:flex;
-    flex-direction:column;
-    align-items:center;  
-}
-
-.introduction{
-    display:flex;
-    justify-content: center;
-    flex-wrap:wrap;
-    gap:70px;
-    
 }
 
 .container {
@@ -50,10 +46,24 @@ a, .welcome2{
     gap:15px;
 }
 
+.introduction{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap:70px;
+}
+
+.container2{
+    display:flex;
+    flex-direction:column;
+    align-items:center;  
+}
+
 img{
     max-width:100%;
     max-height:100%;
 }
+
 .nav-image{
     height: 100px;
     width: 100px;
@@ -63,7 +73,7 @@ img{
 .welcome-image{
     height:450px;
     width: 450px;
-    flex-shrink:0;
+    flex-shrink:1;
 }
 
 .welcome{
@@ -93,31 +103,20 @@ img{
     border-radius: 10%;
 }
 
-
 .description{
     font-size:30px;
     color:#1f2937;
     font-weight: bold;
     padding:30px;
 }
+
 .container3{
     display:flex;
     flex-wrap:Wrap;
-    
 }
 
 .quote, .signature{
     margin:0 100px;
-    
-}
-
-footer{
-    display:flex;
-    background-color:#1f2937;
-    color:#F9FAF8;
-    padding:30px;
-    justify-content: center;
-    
 }
 
 button{
@@ -129,9 +128,8 @@ button{
     border:solid;
     border-color: orange;
     border-radius: 30%;
-    
-
 }
+
 .header-text{
     font-size:50px;
 }
@@ -145,6 +143,7 @@ button{
     display:flex;
     flex-direction:column;   
 }
+
 .noBorder{
     border: none;
     padding:10px 15px;
@@ -152,34 +151,51 @@ button{
     font-weight: bold;
 }
 
+.container4{
+    display:flex;
+    justify-content: center;
+}
+
 .subscribe{
     color:#F9FAF8;
     display:flex;
-    justify-content: space-around;
     background-color:#3882F6;
-    padding:40px 20px 40px 20px;
+    padding:40px 60px 40px 60px;
     border-radius: 10px;
     margin:50px 0;  
-    min-width: 500px;
+    min-width: 300px;
     max-width:1000px;
+    gap:60px;
 }
+
 .register{
     font-weight: bolder;
     font-size: 20px;
 }
+
 .signUp{
     font-weight: normal;
     font-size: 16px;
     color:#E5E7EB;
 }
+
 .whiteBorder{
     border-color: #F9FAF8;
     padding:8px 15px;
     border-radius: 10px;
     font-weight: bold;
 }
+
 .signature{
     text-align:end;
     font-style:normal;
     font-weight:bold;
+}
+
+footer{
+    display:flex;
+    background-color:#1f2937;
+    color:#F9FAF8;
+    padding:30px;
+    justify-content: center;
 }
